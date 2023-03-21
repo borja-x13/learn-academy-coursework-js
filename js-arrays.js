@@ -1,10 +1,13 @@
 // var groceryList = ["chips", "dip", "cookies"]
 // console.log(groceryList)
 
+
 // // Write the code that will add "soda" to the end of the original array.
 
 // groceryList.push("soda")
 // console.log(groceryList)
+
+
 
 // // Write the code that will add "granola" to the end of array without altering the original array.
 
@@ -12,10 +15,13 @@
 // console.log(newGroceryList)
 // console.log(groceryList)
 
+
 // // Write the code that will return a subset of the array containing only "chips" and "dip".
 
 // let slicedGroceryList = groceryList.slice(0,2)
 // console.log(slicedGroceryList)
+
+
 
 // // Write the code that will add "beans" to the "chips" and "dip" array.
 
