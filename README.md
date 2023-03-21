@@ -1,2 +1,3 @@
-# learn-academy-coursework
-personal copy of my completed coursework
+# learn-academy-coursework-js
+
+This is a personal copy of my completed JavaScript coursework
