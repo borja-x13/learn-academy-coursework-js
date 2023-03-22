@@ -6,16 +6,14 @@ const arr1 = [3, 9, 15, 4, 10]
 // // output: [30, 90, 150, 40, 100]
 
 // Pseudo:
-// create a H.O.F named multiplier
-// input: an array of numbers
-// declare an array to contain the new values
-// iterate through origional array witha .map
+// declare a new array: multiplier()
+// set value of multiplier to be a .map of arr1 * 10
+// iterate through array with arr1.map()
 // multiply the array elements by 10
 // console.log the modified array 
 
-    // const multiplier = arr1.map(value => value * 10)
-    // console.log(multiplier)
-
+    const multiplier = arr1.map(value => value * 10)
+    console.log(multiplier) // --> [ 30, 90, 150, 40, 100 ]
 
 
 // Write a function that takes in an array of numbers and returns a new array with only odd numbers.
@@ -29,11 +27,14 @@ const arr1 = [3, 9, 15, 4, 10]
 // iterate through origional array with .filter
 // filter by value % 2 !== 0 to get the odd numbers
 // console.log to the modified array 
-    // const odd = (array) => {
-    //     let odds = array.filter(value => value % 2 !== 0)
-    //     return odds
-    // }
-    // console.log(odd(arr2))
+   
+    const odd = (array) => {
+            let odds = array.filter(value => value % 2 !== 0)
+            return odds
+        }
+        console.log(odd(arr2))
+
+
 
 // Write a function that takes in an array of numbers and letters and returns a string with only the letters. HINT: Use the typeof operator.
 const comboArr = [7, "n", "i", "c", 10, "e", false, "w", 3, "o", "r", "k"]
